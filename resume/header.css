@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+.blur-header {
+    background-color: #9393931a;
+    backdrop-filter: blur(20px);
+}
+.header-contatiner-resume {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 8px 50px;  
+    align-items: center;
+    color: #fff;
+}
+.dummy-img {
+    height: 50%;
+    width: 50%;
+    margin: 20px;
+    border-radius: 50px;
+}
+.char-linear-grad {
+    background: linear-gradient(to right, #240b36, #c31432);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.linkedin-badge {
+                text-align: center;
+                align-items: center;
+                height: 100%;
+                background-image: url("https://assets.website-files.com/6130e3d969066d0cf0de5e2e/631052d384e35bfb4c522fed_BG%20(54).png");
+                background-size:105vh;
+                background-color: #1c1f25;
+            }
+.badge-base__link {
+    background: linear-gradient(to right, #240b36, #c31432);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 30px;
+    justify-content: center;
+    margin: 20px;
+}
+#nav-link {
+    font-weight: 600;
+    padding: 30px;
+}
+.linear-grad-for-char {
+    color: inherit;
+}

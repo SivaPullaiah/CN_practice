@@ -1,0 +1,45 @@
+.covid-card {}
+.covid-container {
+    font-family: 'Roboto';
+    background-color: #ffffff;
+    border: 7px solid #e6f0fa;
+    width: 300px;
+    border-radius: 5px;
+}
+.covid-head {
+    margin: 10px;
+    font-size: 15px;
+}
+.covid-button {
+    background-color: #e6f0fa;
+    margin: 10px;
+    font-size: 10px;
+    height: 75px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.buttom-img {
+    margin: 12px;
+}
+.headind-sym {
+    font-size: 10px;
+}
+.sym-card {
+    color: #ffffff;
+    background-color: #3ebd93;
+    width: 60px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 10px;
+    margin: 10px;
+}
+.sym-card-items {
+    padding: 3px;
+    text-align: center;
+}
+#pink{
+    background-color: #e668a7;
+}
+.vilote {
+    background-color: #a368fc;
+}

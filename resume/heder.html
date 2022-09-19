@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="header.css">
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- must include above and bellow scripts to add class onScroll blur-->
+        <script>
+            $(window).scroll(function() {
+                if($(document).scrollTop()>50) {
+                    $(".header-contatiner-resume").addClass("blur-header");
+                    $(".linear-grad-for-char").addClass("char-linear-grad");
+                }
+                else {
+                    $(".header-contatiner-resume").removeClass("blur-header");
+                    $(".linear-grad-for-char").removeClass("char-linear-grad");
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <div class="navbar-container">
+            <header class="header-contatiner-resume d-flex flex-row justify-content-between">
+                <div class="d-flex flex-row"><h1 class="linear-grad-for-char">F</h1><h1>SAD</h1></div>
+                <div>
+                    <span id="nav-link">Home</span>
+                    <span id="nav-link">Explor</span>
+                    <span id="nav-link">contact me</span>
+                    <span id="nav-link"> <a href="#linkedin">linked in</a> </span>
+                </div>
+            </header>
+        </div>
+        <div class="dummy-images">
+            <img class="dummy-img" src="https://res.cloudinary.com/learning-platform/image/fetch/dpr_auto,w_auto,f_auto,q_auto/https://d1tgh8fmlzexmh.cloudfront.net/otg_prod/media/ccbp-intensive/Programs/intro-to-ccbp-intensive/intro-to-ccbp-intensive_2x.png" alt="">
+            <img class="dummy-img" src="https://res.cloudinary.com/learning-platform/image/fetch/dpr_auto,w_auto,f_auto,q_auto/https://d1tgh8fmlzexmh.cloudfront.net/website/static-images/track_gradients/projects.jpg" alt="">
+            <img class="dummy-img" src="https://res.cloudinary.com/learning-platform/image/fetch/dpr_auto,w_auto,f_auto,q_auto/https://d1tgh8fmlzexmh.cloudfront.net/otg_prod/media/ccbp-intensive/Programs/xpm-fundamentals/xpm-fundamentals_2x.png" alt="">
+            <img class="dummy-img" src="https://res.cloudinary.com/learning-platform/image/fetch/dpr_auto,w_auto,f_auto,q_auto/https://d1tgh8fmlzexmh.cloudfront.net/website/static-images/track_gradients/xpm_fundamentals.jpg" alt="">
+            <img class="dummy-img" src="https://static.grammarly.com/assets/files/26df693c6d5c48b31d5e0935333c8cb7/bg.jpg" alt="">
+        </div>
+        <div id="linkedin" class="linkedin-badge d-flex flex-column justify-content-center">
+            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="sivapullaiahmangali" data-version="v1">
+            </div>
+            <a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/sivapullaiahmangali?trk=profile-badge">SivaPullaiah Mangali</a>
+        </div>
+        
+    </body>
+</html>
